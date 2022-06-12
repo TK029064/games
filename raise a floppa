@@ -16,7 +16,7 @@ Main:Button("Destroy GUI",function()
     game:GetService("CoreGui").Library:Destroy()
 end)
 Main:Button("Join Discord",function()
-    inviteModule.Join("https://discord.gg/RqGmU9FMfa")
+    setclipboard("https://discord.gg/RqGmU9FMfa")
 end)
 Main:Colorpicker("Notification Color",Color3.fromRGB(80, 80, 80),function(t)
     getgenv().notifColor = t
