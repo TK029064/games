@@ -7,12 +7,6 @@ CoreGui:SetCore("SendNotification", {
 Duration = 5;
 })
 
-local CoreGui = game:GetService("StarterGui") 
-CoreGui:SetCore("SendNotification", {
- Title = "Thx For using Us! UwU",
- Text = "Strike Hub by TK02#9064",
-Duration = 5;
-})
 
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")() -- Self explaining
 
